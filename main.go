@@ -1,15 +1,20 @@
 package main
 
+import "fmt"
+
 //package main means ...it will create a executable file for us....
 // if package main...then func main required...
-
-import "fmt"
 
 
 
 
 func main(){
-	card := "Ace of Spades"
-	card = "Five of Diamonds";
+	card := newCard()
+
 	fmt.Println(card)
+}
+
+
+func newCard() string{
+	return "The Ace of Spades"
 }

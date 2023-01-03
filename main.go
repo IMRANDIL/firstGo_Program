@@ -9,5 +9,7 @@ import "fmt"
 
 
 func main(){
-	fmt.Println("hey ali what is up man!")
+	card := "Ace of Spades"
+	card = "Five of Diamonds";
+	fmt.Println(card)
 }

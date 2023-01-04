@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //package main means ...it will create a executable file for us....
 // if package main...then func main required...
 
@@ -13,9 +11,7 @@ func main(){
 
 	cards = append(cards, "Six of Spades")
 
-	for i, card := range cards{
-		fmt.Println(i,card)
-	}
+cards.print()
 
 	
 }

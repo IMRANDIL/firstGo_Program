@@ -17,7 +17,7 @@ func newDec() deck{
 
 	for _,suits := range cardSuits{
 		for _, values := range cardValues {
-			cards = append(cards, suits+" of "+values)
+			cards = append(cards, values+" of "+suits)
 		}
 	}
 	return cards

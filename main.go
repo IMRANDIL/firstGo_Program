@@ -9,7 +9,10 @@ package main
 func main(){
 	cards := newDec()
 
-cards.print()
+hand, remainingCard := deal(cards,5)
+
+hand.print()
+remainingCard.print()
 
 	
 }
